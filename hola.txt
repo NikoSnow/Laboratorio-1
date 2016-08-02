@@ -1,0 +1,1 @@
+ByContract,A,Fabian,Mon Dec 12 00:00:00 COT 2016,2,100.0

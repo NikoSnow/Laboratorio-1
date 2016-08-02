@@ -29,5 +29,11 @@ public abstract class Employee extends Person {
     }
     
     public abstract float paySalary();
+
+    @Override
+    public String toString() {
+        return super.toString()+ "," + hiringDate.toString();
+    }
    
+    
 }

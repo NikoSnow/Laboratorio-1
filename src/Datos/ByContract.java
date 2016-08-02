@@ -41,6 +41,13 @@ public class ByContract extends Employee {
     @Override
      public float paySalary() {
          return this.value/this.months;
+        
      }
+
+    @Override
+    public String toString() {
+        return "ByContract," + super.toString() + "," + months + "," + value;
+    }
     
+     
 }
